@@ -1,0 +1,27 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+
+<updated>2012-01-23T09:43:22Z</updated>
+<title>USGS M 2.5+ Earthquakes</title>
+<subtitle>Real-time, worldwide earthquake list for the past 7 days</subtitle>
+<link rel="self" href="http://earthquake.usgs.gov/earthquakes/catalogs/7day-M2.5.xml"/>
+<link href="http://earthquake.usgs.gov/earthquakes/"/>
+<author><name>U.S. Geological Survey</name></author>
+
+<id>http://earthquake.usgs.gov/</id>
+<icon>/favicon.ico</icon>
+<entry>
+    <id>urn:earthquake-usgs-gov:ak:10395995</id>
+    <title>M 2.7, Alaska Peninsula</title>
+    <updated>2012-01-23T09:38:43Z</updated>
+    <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10395995.php"/>
+    <summary type="html">
+    <![CDATA[<img src="http://earthquake.usgs.gov/images/globes/60_-155.jpg" alt="57.806&#176;N 156.412&#176;W" align="left" hspace="20" />
+    <p>Monday, January 23, 2012 09:38:43 UTC<br>Monday, January 23, 2012 12:38:43 AM at epicenter</p>
+    <p><strong>Depth</strong>: 122.70 km (76.24 mi)</p>]]></summary><georss:point>57.8058 -156.4123</georss:point>
+    <georss:elev>-122700</georss:elev>
+    <category label="Age" term="Past hour"/>
+</entry>
+
+[:]
+
+</feed>

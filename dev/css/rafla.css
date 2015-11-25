@@ -1,0 +1,12 @@
+/*Body,map: These are css selectors. Each selector refers to certain element to which the style is applied.*/
+/*Tänne meidän omat css-määritykset*/
+
+body {
+
+}
+
+
+.map {
+        height: 500px;
+        width: 100%;
+      }

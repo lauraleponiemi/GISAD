@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="item">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="title" type="xs:int"/>
+      <xs:element name="link" type="xs:int"/>
+      <xs:element name="description" type="xs:int"/>
+      <xs:element name="pubDate" type="xs:int"/>
+      <xs:element name="guid" type="xs:int"/>
+      <xs:element name="matko:id" type="xs:int"/>
+      <xs:element name="matko:type1" type="xs:string"/>
+      <xs:element name="matko:type2" type="xs:string"/>
+      <xs:element name="matko:address" type="xs:string"/>
+      <xs:element name="matko:zipcode" type="xs:string"/>
+      <xs:element name="matko:phone" type="xs:string"/>
+      <xs:element name="matko:fax" type="xs:string"/>
+      <xs:element name="matko:email" type="xs:string"/>
+      <xs:element name="matko:location" type="xs:string"/>
+      <xs:element name="matko:open" type="xs:string"/>
+      <xs:element name="matko:admission" type="xs:string"/>
+      <xs:element name="matko:targetgroups" type="xs:string"/>
+      <xs:element name="matko:disabled" type="xs:string"/>
+      <xs:element name="matko:groups" type="xs:string"/>
+      <xs:element name="matko:accommodationinfo" type="xs:string"/>
+      <xs:element name="matko:restaurantinfo" type="xs:string"/>
+      <xs:element name="matko:exhibitioninfo" type="xs:string"/>
+      <xs:element name="matko:additionalconferencerooms" type="xs:string"/>
+      <xs:element name="matko:additionalinfo" type="xs:string"/>
+      <xs:element name="matko:services" type="xs:string"/>
+      <xs:element name="matko:hotelclassification" type="xs:string"/>
+      <xs:element name="matko:largesttheater" type="xs:string"/>
+      <xs:element name="matko:largestclassroom" type="xs:string"/>
+      <xs:element name="matko:largestauditorium" type="xs:string"/>
+      <xs:element name="matko:largestcocktailroom" type="xs:string"/>
+      <xs:element name="matko:largestdinnerroom" type="xs:string"/>
+      <xs:element name="matko:largestboardroom" type="xs:string"/>
+      <xs:element name="matko:numberofconferencerooms" type="xs:string"/>
+      <xs:element name="matko:numberofhotelrooms" type="xs:string"/>
+      <xs:element name="matko:numberofrestaurantseats" type="xs:string"/>
+      <xs:element name="matko:exhibitionarea" type="xs:string"/>
+      <xs:element name="matko:isvenue" type="xs:boolean"/>
+      <xs:element name="matko:area" type="xs:string"/>
+      <xs:element name="matko:ingress" type="xs:string"/>
+      <xs:element name="matko:longitude" type="xs:string"/>
+      <xs:element name="matko:latitude" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
+

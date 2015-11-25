@@ -1,0 +1,180 @@
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+	<ul class="sidebar-nav">
+		<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+		<li class="sidebar-brand">
+			<a href="#top"  onclick = $("#menu-close").click(); >rafla</a>
+		</li>
+		<li>
+			<a href="#map" onclick = $("#menu-close").click(); >Hae</a>
+		</li>
+		<li>
+			<a href="#about" onclick = $("#menu-close").click(); >Tietoja</a>
+		</li>
+		<li>
+			<a href="#services" onclick = $("#menu-close").click(); >Palvelut</a>
+		</li>
+		<li>
+			<a href="#contact" onclick = $("#menu-close").click(); >Yhteystiedot</a>
+		</li>
+	</ul>
+</nav>
+
+<!-- Otsikko -->
+<header id="top" class="header">
+	<div class="text-vertical-center">
+		<h1>rafla</h1>
+		<h3>ravintolatutka juuri sinulle</h3>
+		<br>
+		<a href="#search" class="btn btn-dark btn-lg">Etsi ravintola!</a>
+	</div>
+</header>
+
+<!-- info-->
+<section id="about" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Helppokäyttöinen karttapalvelu ravintoloiden etsimiseen </h2>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+<!-- Call to Action -->
+<aside class="call-to-action bg-primary" id="search">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h3>Aloita:</h3>
+				<a href="#" class="btn btn-lg btn-light">Hae sijainnilla</a>
+				<a href="#" class="btn btn-lg btn-dark">Etsi ravintola</a>
+			</div>
+		</div>
+	</div>
+</aside>
+
+<!-- Map -->
+<div id="map" class="map"></div>
+
+<!-- Palvelut -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-lg-10 col-lg-offset-1">
+				<h2>Palvelut</h2>
+				<hr class="small">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-cloud fa-stack-1x text-primary"></i> </span>
+							<h4><strong>Hae sijaintisi</strong></h4>
+							<p>
+								Locate user.
+							</p>
+							<a href="#" class="btn btn-light">Syömään</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-compass fa-stack-1x text-primary"></i> </span>
+							<h4><strong>Lajittele</strong></h4>
+							<p>
+								Selection with attributes and area.
+							</p>
+							<a href="#" class="btn btn-light">Syömään</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-flask fa-stack-1x text-primary"></i> </span>
+							<h4><strong>Hae etäisyydellä</strong></h4>
+							<p>
+								Search with name, type, distance etc.
+							</p>
+							<a href="#" class="btn btn-light">Syömään</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-shield fa-stack-1x text-primary"></i> </span>
+							<h4><strong>Hae saavutettavuudella</strong></h4>
+							<p>
+								Find closest restaurant.
+							</p>
+							<a href="#" class="btn btn-light">Syömään</a>
+						</div>
+					</div>
+				</div>
+				<!-- /.row (nested) -->
+			</div>
+			<!-- /.col-lg-10 -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+<!-- Footer -->
+<section id="contact">
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 text-center">
+					<h4><strong>Yhteystiedot</strong></h4>
+					<p>
+						TEAM-E
+						<br>
+						GISAD
+						<br>
+						Aalto University
+					</p>
+					<ul class="list-unstyled">
+						<li>
+							<i class="fa fa-phone fa-fw"></i> (123) 456-7890
+						</li>
+						<li>
+							<i class="fa fa-envelope-o fa-fw"></i><a href="mailto:team-e@aalto.fi">team-e@aalto.fi</a>
+						</li>
+					</ul>
+					<br>
+					<ul class="list-inline">
+						<li>
+							<a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+						</li>
+					</ul>
+					<hr class="small">
+					<p class="text-muted">
+						Copyright &copy; GISAD TEAM-E 2015
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+
+<!-- Callout -->
+<aside class="callout">
+	<div class="text-vertical-center">
+		<h1>team-e</h1>
+		<h2>
+		<br>
+		Miska
+		<br>
+		Sanna
+		<br>
+		Laura
+		<br>
+		Reeta </h2>
+	</div>
+</aside>
